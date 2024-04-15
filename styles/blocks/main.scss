@@ -7,4 +7,15 @@
     line-height: 27px;
     text-align: left;
 
+    &__paragraph {
+        &--bold {
+            font-family: 'Inter';
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22.4px;
+            text-align: left;
+
+        }
+    }
+
 }
