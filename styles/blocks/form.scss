@@ -1,9 +1,14 @@
+@use '../utils/mixins' as *;
+
 .form {
     &__item {
 
     }
 
     &__label {
+        &:not(:focus):not(:active) {
+            @include visually-hidden();
+        }
         
     }
 
