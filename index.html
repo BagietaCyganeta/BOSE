@@ -12,10 +12,10 @@
 <body>
     <header class="header">
         <nav class="navigation">
-            <a href=""><img src="header-logo.png" alt=""></a>
+            <a class="navigation__item" href=""><img src="header-logo.png" alt=""></a>
             <div class="navigation__icons">
-            <a href=""><img src="phone.svg" alt=""></a>
-            <a href=""><img src="burger.svg" alt=""></a>
+            <a class="navigation__item" href=""><img src="phone.svg" alt=""></a>
+            <a class="navigation__item" href=""><img src="burger.svg" alt=""></a>
             </div>
         </nav>
         <h1 class="title title--decoration">
@@ -27,6 +27,14 @@
 
     <div class="menu">
         <nav class="navigation">
+            <a class="navigation__item" href=""><img src="header-logo.png" alt=""></a>
+            <div class="navigation__icons">
+            <a class="navigation__item--hidden" href=""><img src="burger.svg" alt=""></a>
+            <a class="navigation__item" href=""><img src="close.svg" alt=""></a>
+            </div>
+        </nav>
+
+        <nav class="page__navigation">
             <ul>
                 <li ><a href="">Home</a></li>
                 <li><a href="">recommended</a></li>
