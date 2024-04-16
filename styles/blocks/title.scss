@@ -9,6 +9,17 @@
         text-align: left;
 
         color: #292929;
+
+        &::before {
+            content: '';
+            display: block;
+            background-image: url(../../waves.svg);
+            background-repeat: no-repeat;
+            width: 48px;
+            height: 58px;
+            background-size: cover;
+            margin-bottom: 16px;
+        }
         
     }
 
