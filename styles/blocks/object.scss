@@ -1,0 +1,14 @@
+@use '../utils/mixins' as *;
+
+.object {
+    @include grid();
+
+    &__product {
+        margin-bottom: 40px;
+        grid-column: span 2;
+
+        @include for-desktop() {
+            grid-column: span 4;
+        }
+    }
+}
