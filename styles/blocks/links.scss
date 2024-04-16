@@ -1,13 +1,31 @@
 .links {
+    padding-top: 60px;
     &__list {
 
     }
 
     &__item {
-
+        margin-bottom: 24px;
     }
 
     &__link {
-        
+        font-family: 'Inter';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-align: left;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-bottom: 1px solid transparent;
+        padding-bottom: 8px;
+
+        display: inline-block;
+
+        color: #292929;
+
+        &:hover {
+            border-bottom: 1px solid #292929;
+        }
     }
 }
