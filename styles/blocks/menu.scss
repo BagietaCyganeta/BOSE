@@ -6,4 +6,40 @@
     
     display: flex;
     flex-direction: column;
+
+    &__links {
+        margin-bottom: 40px;
+    }
+    
+    &__paragraph {
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+        margin-bottom: 16px;
+
+        color: #292929;
+
+    }
+
+    &__call-link {
+        font-family: 'Inter';
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 2px;
+        text-align: left;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        color: #292929;
+        
+        padding-bottom: 8px;
+        border-bottom: 1px solid transparent;
+
+        &:hover {
+            border-bottom: 1px solid #292929;
+        }
+    }
 }
