@@ -1,7 +1,7 @@
 .product {
     &__image {
         display: block;
-        margin: 0 auto;
+        margin: 0 auto 32px;
     }
     
     &__name {
@@ -13,6 +13,8 @@
 
         color: #292929;
 
+        margin-bottom: 8px;
+
     }
 
     &__item {
@@ -23,6 +25,8 @@
         text-align: left;
 
         color: #292929;
+
+        margin-bottom: 12px;
 
     }
 

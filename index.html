@@ -36,11 +36,11 @@
 
         <nav class="links menu__links">
             <ul class="links__list">
-                <li class="links__item"><a href="" class="links__link">Home</a></li>
-                <li class="links__item"><a href="" class="links__link">recommended</a></li>
-                <li class="links__item"><a href="" class="links__link">categories</a></li>
-                <li class="links__item"><a href="" class="links__link">How to buy</a></li>
-                <li class="links__item"><a href="" class="links__link">Contacts</a></li>
+                <li class="links__item"><a href="#header" class="links__link">Home</a></li>
+                <li class="links__item"><a href="#recommended" class="links__link">recommended</a></li>
+                <li class="links__item"><a href="#categories" class="links__link">categories</a></li>
+                <li class="links__item"><a href="#buy" class="links__link">How to buy</a></li>
+                <li class="links__item"><a href="#contacts" class="links__link">Contacts</a></li>
             </ul>
         </nav>
         <p class="menu__paragraph">+1 234 5555-55-55</p>
@@ -50,19 +50,19 @@
     </div>
 
     <main class="main">
-        <section class="section">
-            <h2 class="title title--section">
+        <section class="section" id="recommended">
+            <h2 class="title title--section section__title">
                 Recommended
             </h2>
 
-            <article class="product">
+            <article class="product section__product">
                 <img class="product__image" src="product-1.png" alt="">
                 <h3 class="product__name">Bose portable Smart speaker</h3>
                 <p class="product__item">Portable bluetooth</p>
                 <p class="product__price">$ 399.00</p>
             </article>
 
-            <article class="product">
+            <article class="product section__product">
                 <img class="product__image" src="product-2.png" alt="">
                 <h3 class="product__name">
                     SoundLink Color Bluetooth speaker II
@@ -71,7 +71,7 @@
                 <p class="product__price">$ 149.00</p>
             </article>
 
-            <article class="product">
+            <article class="product section__product">
                 <img class="product__image" src="product-3.png" alt="">
                 <h3 class="product__name">SoundLink Color Bluetooth<br>
                     speaker II
@@ -81,31 +81,31 @@
             </article>
         </section>
 
-        <section class="section">
-            <h2 class="title title--section">
+        <section class="section" id="categories">
+            <h2 class="title title--section section__title">
                 Browse Bose<br>
                 products by<br>
                 category
             </h2>
 
-            <article class="article">
-                <div class="pictures">
+            <article class="article section__article">
+                <div class="pictures article__pictures">
                     <img src="pictures-1.jpg" class="pictures__items" alt="">
                     <img src="pictures-2.jpg" class="pictures__items" alt="">
                 </div>
                 <p class="article__paragraph">Headphones & earbuds</p>
             </article>
 
-            <article class="article">
-                <div class="pictures">
+            <article class="article section__article">
+                <div class="pictures article__pictures">
                     <img src="pictures-3.jpg" class="pictures__items" alt="">
                     <img src="pictures-4.jpg" class="pictures__items" alt="">
                 </div>
                 <p class="article__paragraph">Speakers</p>
             </article>
 
-            <article class="article">
-                <div class="pictures">
+            <article class="article section__article">
+                <div class="pictures article__pictures">
                     <img src="pictures-5.jpg" class="pictures__items" alt="">
                     <img src="pictures-6.jpg" class="pictures__items" alt="">
                 </div>
@@ -114,25 +114,28 @@
 
             <a href="#" class="button">View all</a>
         </section>
-
-            <h2 class="title title--secondary">
+        
+        <section class="section" id="buy">
+            <h2 class="title title--secondary section__title" id="buy">
                 Why buy direct <br>
                 from Bose
             </h2>
+            <div class="section__text section__text--space">
+                <p class="section__paragaph section__paragraph--bold">Free 2-day shipping and returns</p>
 
-            <p class="main__paragraph--bold">Free 2-day shipping and returns</p>
+                <p class="section__paragaph section__paragraph--bold">90-day risk-free trial</p>
             
-            <p class="main__paragraph--bold">90-day risk-free trial</p>
+                <p class="section__paragaph section__paragraph--bold">World class customer service</p>
             
-            <p class="main__paragraph--bold">World class customer service</p>
-            
-            <p class="main__paragraph--bold">My Bose account management</p>
-
-            <p class="main__paragraph">A great product is more than what’s in the box. It’s a promise of premium performance, world-class support, and everything you expect from a trusted brand. It’s just one of many reasons why you’ll shop with confidence on Bose.com.
+                <p class="section__paragaph section__paragraph--bold">My Bose account management</p>
+            </div>
+            <p class="section__paragaph">A great product is more than what’s in the box. It’s a promise of premium performance, world-class support, and everything you expect from a trusted brand. It’s just one of many reasons why you’ll shop with confidence on Bose.com.
             </p>
 
-            <section class="section">
-                <h3 class="title title--section">Contact us</h3>
+        </section>
+            
+            <section class="section" id="contacts">
+                <h3 class="title title--section section__title">Contact us</h3>
                 <form class="form">
                     <div class="form__item">
                         <label for="name" class="form__label">Name</label>
