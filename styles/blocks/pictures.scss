@@ -8,12 +8,25 @@
         position: relative;
         padding-top: 100%;
 
+
+
+        @include for-tablet() {
+            grid-column: span 3;
+            padding-top: 184px;
+            padding-left: 0;
+        }
+
         @include for-desktop() {
             grid-column: span 6;
             padding-top: 324px;
+            padding-left: 0;
         }
 
         &--small {
+            @include for-tablet() {
+                grid-column: span 2;
+            }
+            
             @include for-desktop() {
                 grid-column: span 4;
             }
@@ -21,6 +34,10 @@
         }
 
         &--big {
+            @include for-tablet() {
+                grid-column: span 4;
+            }
+
             @include for-desktop() {
                 grid-column: span 8;
             }
@@ -33,7 +50,8 @@
         height: 100%;
         position: absolute;
         object-fit: cover;
-
     }
+
+    
 
 }
