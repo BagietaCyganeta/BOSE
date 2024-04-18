@@ -10,6 +10,11 @@
 
         color: #292929;
 
+        @include for-desktop() {
+            font-size: 48px;
+            line-height: 48px;
+        }
+
         &::before {
             content: '';
             display: block;
@@ -32,6 +37,11 @@
         text-align: center;
 
         color: #292929;
+
+        @include for-desktop() {
+            font-size: 48px;
+            line-height: 48px;
+        }
     }
 
     &--secondary {
@@ -45,5 +55,10 @@
         color: #292929;
 
         padding-top: 64px;
+
+        @include for-desktop() {
+            font-size: 48px;
+            line-height: 48px;
+        }
     }
 }
