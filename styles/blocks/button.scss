@@ -1,3 +1,5 @@
+@use '../utils/mixins' as *;
+
 .button {  
     border-radius: 40px;
     background-color: #292929;
@@ -9,6 +11,8 @@
     line-height: 27px;
     text-align: center;
     padding: 15px 0;
+
+    margin-bottom: 48px;
 
     color: #ffffff;
 
@@ -27,11 +31,12 @@
 
         padding: 15px 0;
 
-        margin-bottom: 48px;
+        
 
         &:hover {
             background-color: #ffffff;
             color: #292929;
         }
     }
+
 }
