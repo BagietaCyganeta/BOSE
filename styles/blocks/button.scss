@@ -11,10 +11,23 @@
     line-height: 27px;
     text-align: center;
     padding: 15px 0;
+    border: 3px solid #292929;
+    
 
     margin-bottom: 48px;
 
     color: #ffffff;
+
+    &:hover {
+        background-color: #ffffff;
+        color: #292929;
+        border: 3px solid #292929;
+    }
+
+    &:active {
+        color: #ffffff;
+        background-color: #111111;
+    }
 
 
     &--primary {
@@ -31,12 +44,17 @@
 
         padding: 15px 0;
 
-        
-
         &:hover {
             background-color: #ffffff;
             color: #292929;
+            border: 3px solid #292929;
         }
+
+        &:active {
+            color: #ffffff;
+            background-color: #111111;
+        }
+
     }
 
 }
