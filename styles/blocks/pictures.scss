@@ -50,8 +50,13 @@
         height: 100%;
         position: absolute;
         object-fit: cover;
+
+        &--move {
+            object-position: 95%;
+        }
     }
 
+    
     
 
 }
